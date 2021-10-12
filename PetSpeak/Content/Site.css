@@ -31,11 +31,11 @@ textarea {
 }
 
 
-/* Move down content because we have a fixed navbar that is 50px tall */
+
 .petCell {
-    padding: 15px 10px;
+    padding: 5px 10px;
 }
 
-.petHeader {
-    border-bottom: 2pt solid black;
+.petTable tr {
+    border-bottom: 1pt solid grey;
 }

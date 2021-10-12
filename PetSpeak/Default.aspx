@@ -9,6 +9,7 @@
         <div id="divPets"> </div>
 
         <p>
+            <br/><br/>
             <a class="btn btn-default" onclick="ShowPetList();return false;">Refresh Pets</a>
         </p>
 

@@ -70,7 +70,7 @@ namespace PetSpeak
                 }
 
                 strHTML.Append("<td class='petCell'>" 
-                    +"<a class=\"btn btn-default\" onclick=\"PetSpeak('"+pet.Speak()+"');return false;\">Speak</a>" 
+                    + "<a class=\"btn btn-primary btn-lg\" onclick=\"PetSpeak('" + pet.Speak()+"');return false;\">Speak</a>" 
                     + "</td>");
 
                 strHTML.Append("</tr>");
