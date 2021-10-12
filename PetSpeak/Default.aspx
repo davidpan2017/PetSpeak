@@ -4,11 +4,20 @@
 
     <div class="jumbotron">  
 
-        <p>
-                <a class="btn btn-default" onclick="GetPalindromePetList();return false;">Get Pets</a>
-        </p>
+        
         <h1>Pets in the House</h1>
         <div id="divPets"> </div>
+
+        <p>
+            <a class="btn btn-default" onclick="ShowPetList();return false;">Refresh Pets</a>
+        </p>
+
     </div>
 
+    <script>
+        ShowPetList();
+    </script>
+
 </asp:Content>
+
+
