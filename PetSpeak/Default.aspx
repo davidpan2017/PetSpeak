@@ -5,7 +5,7 @@
     <div class="jumbotron">  
 
         <p>
-                <a class="btn btn-default" onclick="GetPalindromePetList();return false;">Get Clinics</a>
+                <a class="btn btn-default" onclick="GetPalindromePetList();return false;">Get Pets</a>
         </p>
         <h1>Pets in the House</h1>
         <div id="divPets"> </div>

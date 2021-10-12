@@ -32,7 +32,7 @@ namespace PetModel.Models
         {
                 // Check whether a string is palindrome by compareing the string with reversed string.                 
                 string reversedStr = new string(str.Reverse().ToArray());
-                return string.Compare(str, reversedStr) == 0 ? true : false;
+                return string.Compare(str, reversedStr,true) == 0 ? true : false;
         }
 
         public virtual bool IsNameAPalindrome
